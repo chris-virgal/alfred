@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+      <link rel="stylesheet" href="css/foundation.css" /><link/>
+        <script></script>
+	</head>
+	<body>
+    <div class="row">
+     
+    </div>          
+  <script type="text/javascript">
+  var current = new Date();  
+  var month = current.getMonth();  
+  var day = current.getDate();  
+  var year = current.getFullYear(); 
+  console.log
+  for(i=0;i<year+10;i++){
+    var month = month++;
+    var day = day++;
+    var year = year++
+    $( ".date" ).append( [ day, month, year ] );
+  }
+
+  </script>              
+	</body>
+  <div class="date"></div>
+</html>
